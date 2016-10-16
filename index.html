@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <svg  class="off-button" onclick="turnOffSound()" width="50px" height="50px" viewBox="0 0 67 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+      <title>off button</title>
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="off-button">
+              <circle id="Oval-3-Copy-3" fill="#767F8A" cx="33.5" cy="33.5" r="33.5"></circle>
+              <path d="M21,42.0555556 L38,50 L38,17 L21,24.9444444 L21,42.0555556 Z" id="Combined-Shape-Copy-2" fill="#D3D6D8"></path>
+              <rect id="Rectangle-7-Copy" fill="#D3D6D8" x="8" y="26" width="8" height="15"></rect>
+          </g>
+      </g>
+    </svg>
+    <svg "on-button" onclick="turnOnSound()" width= "50px" height="50px" viewBox="0 0 67 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+      <title>on button</title>
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+  <g id="on-button">
+  <circle id="Oval-3-Copy-2" fill="#767F8A" cx="33.5" cy="33.5" r="33.5"></circle>
+              <path d="M21,42.0555556 L38,50 L38,17 L21,24.9444444 L21,42.0555556 Z" id="Combined-Shape" fill="#D3D5D8"></path>
+              <path d="M42.68001,46.7141756 L42.68001,46.7141756 C49.3741612,46.1133947 54.6085929,40.8421762 54.6085929,34.4283512 C54.6085929,28.0145262 49.3741612,22.7433077 42.68001,22.1425268" id="Combined-Shape" stroke="#D3D5D8" stroke-width="2" stroke-linecap="round"></path>
+              <path d="M43.015625,39.2644524 L43.015625,39.2644524 C45.8127854,39.0134153 48,36.8108292 48,34.1308035 C48,31.4507778 45.8127854,29.2481917 43.015625,28.9971546" id="Combined-Shape" stroke="#D3D5D8" stroke-width="2" stroke-linecap="round"></path>
+              <rect id="Rectangle-7" fill="#D3D5D8" x="8" y="26" width="8" height="15"></rect>
+    </source> </g> </g> </svg>                   
+    <svg class="cup" width="246px" height="400px" viewBox="0 0 246 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+      <title>cup</title>
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="cup">
+             <mask id="juice-mask" fill="white">
+    <path d="M193.43492,16.8245098 L167.974528,258.146547 C167.764304,259.998608 166.24241,261.5 164.598341,261.5 L31.7995626,261.5 C30.1452621,261.5 28.6336822,259.996293 28.4241449,258.146547 L3.01913479,16.8245098 C2.83898567,14.9724491 3.95103065,13.4710572 5.50494778,13.4710572 L190.949876,13.4710572 C192.50281,13.4710572 193.615268,14.9747646 193.43492,16.8245098 Z"></path>
+  </mask>
+  <g mask="url(#juice-mask)" transform="translate(25, 45)">
+          <g id="Juice" transform="translate(-50.000000, 20)" fill="#73D6F9">
+              <path d="M-2.84217094e-14,8.1682974 L-1.46577306e-14,231.311749 L495.8996,231.311749 L495.8996,2.84762888 L347.994444,0.680937744 C328.667546,0.397814299 297.920212,4.42077936 279.31582,9.66719511 L293.809592,5.57996919 C248.627402,18.3212917 174.769999,20.7975749 128.83047,11.1079507 L89.3033797,2.7708463 C72.0150005,-0.875640766 43.9783112,-0.930663542 26.665821,2.65123099 L-2.84217094e-14,8.1682974 Z" id="juice2"></path> 
+          </g>
+      </g>
+              <g id="Shadow" transform="translate(8.000000, 16.000000)" fill="#04325C" opacity="0.0949160448">
+                  <polygon id="shadow" points="231.791992 0 230.628906 7 1.37109375 7 0.208007812 0"></polygon>
+              </g>
+              <path d="M121.884747,1 L239.114636,1 C240.772616,1 241.952702,2.33082964 241.749589,3.97933223 L204.781365,304.020668 C204.57863,305.666108 203.070314,307 201.411457,307 L46.3607765,307 C44.7023632,307 43.1939816,305.66917 42.9908688,304.020668 L6.02264454,3.97933223 C5.81990918,2.33389248 7.00106284,1 8.66020923,1 L121.884747,1 Z" id="Rectangle" fill-opacity="0.395776721" fill="#C9E9EF"></path>
+              <rect id="Rectangle-3" fill-opacity="0.89" fill="#D1E6F7" x="0" y="0" width="246" height="16" rx="8"></rect>
+              <path d="M128.994431,158.047619 C128.99813,158.12652 129,158.205899 129,158.285714 C129,161.047138 126.761424,163.285714 124,163.285714 C121.238576,163.285714 119,161.047138 119,158.285714 C119,158.205899 119.00187,158.12652 119.005569,158.047619 L128.994431,158.047619 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+              <g id="Group" transform="translate(86.000000, 151.000000)" fill="#FAD8D2" opacity="0.700034981">
+                  <g id="Group-2">
+                      <ellipse id="Oval-2" cx="4" cy="3" rx="4" ry="3"></ellipse>
+                  </g>
+                  <g id="Group-2" transform="translate(67.000000, 0.000000)">
+                      <ellipse id="Oval-2" cx="4" cy="3" rx="4" ry="3"></ellipse>
+                  </g>
+              </g>
+              <g id="eyes" transform="translate(99.000000, 140.000000)" stroke="#0E4865" stroke-width="3" stroke-linecap="round">
+                  <path d="M15,7.01534235 L15,7.01534235 C14.742143,3.0977588 11.4828317,0 7.5,0 C3.51716832,0 0.257856968,3.0977588 0,7.01534235" id="Combined-Shape"></path>
+                  <path d="M49,7.01534235 L49,7.01534235 C48.742143,3.0977588 45.4828317,0 41.5,0 C37.5171683,0 34.257857,3.0977588 34,7.01534235" id="Combined-Shape-Copy"></path>
+              </g>
+          </g>
+      </g>
+  </svg>
+  
+  
+  <svg class="shadow" width="139px" height="17px" viewBox="0 0 139 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cup shadow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.0831389925">
+        <ellipse id="cup-shadow" fill="#04325C" cx="69.5" cy="8.5" rx="69.5" ry="8.5"></ellipse>
+    </g>
+  </svg>                                                                                                                                      
+
+                                                                                     
+                                              
+
+
+  </body>
+</html>

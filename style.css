@@ -1,0 +1,88 @@
+div.container {
+  margin: auto;
+  width: 50%;}
+
+body {
+  z-index: -2;
+  -webkit-animation: color_change 2s infinite alternate;
+  -moz-animation: color_change 2s infinite alternate;
+  -ms-animation: color_change 2s infinite alternate;
+  -o-animation: color_change 2s infinite alternate;
+  animation: color_change 2s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+ 0% { background-color: red; }
+25% { background-color: orange; }
+50% { background-color: #F2E86C; }
+75% { background-color: purple; }
+100% { background-color: blue; }
+}
+@-moz-keyframes color_change {
+  0% { background-color: red; }
+25% { background-color: orange; }
+50% { background-color: #F2E86C; }
+75% { background-color: purple; }
+100% { background-color: blue; }
+}
+
+@-ms-keyframes color_change {
+ 0% { background-color: red; }
+25% { background-color: orange; }
+50% { background-color: #F2E86C; }
+75% { background-color: purple; }
+100% { background-color: blue; }
+}
+
+@-o-keyframes color_change {
+ 0% { background-color: red; }
+25% { background-color: orange; }
+50% { background-color: #F2E86C; }
+75% { background-color: purple; }
+100% { background-color: blue; }
+}
+
+@keyframes color_change {
+ 0% { background-color: red; }
+25% { background-color: orange; }
+50% { background-color: #F2E86C; }
+75% { background-color: purple; }
+100% { background-color: blue; }
+}
+
+
+svg.cup {
+  margin: auto;
+  top: 50px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  
+}
+svg.shadow {
+   margin: auto;
+  margin-top: 420px;
+  margin-bottom: 50px;
+  left: 5px;
+  right: 0;
+  position: absolute;
+  
+}
+
+svg.juice2 {
+  margin-left: 100px;
+  width:50%;
+  z-index: -1;
+  
+}
+
+#on-button {
+  margin-top: 350px;
+ 
+}
+
+#off-button {
+  margin-top: 350px;
+  
+}
+
